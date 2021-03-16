@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adir.DEV</title>
     <style>
-    body{background-color:rgb(24, 9, 59);color:hotpink;height:100vh;margin:0;padding:0;display:flex;justify-content: center;align-items: center;}
+    body{background-color:rgb(24, 9, 59);color:hotpink;height:100vh;margin:0;padding:0;display:flex;flex-direction:column;justify-content: center;align-items: center;}
     h1{font-family: sans-serif;font-weight: 100;}
+    .loader{padding:32px;border:2px solid hotpink;border-bottom-color:transparent;border-left-color:transparent;border-radius:50%;animation:spinMe 400ms linear infinite;}
+    @keyframes spinMe {
+        0%{transform:rotate(0deg);}
+        100%{transform:rotate(360deg);}
+    }
     </style>
 </head>
 <body>
+    <div class="loader"></div>
     <h1>Coming Soon...</h1>
 </body>
 </html>
