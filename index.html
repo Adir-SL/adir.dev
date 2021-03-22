@@ -7,7 +7,10 @@
     <title>Adir.dev</title>
     <style>
     body{background-color:rgb(24, 9, 59);color:hotpink;}
-    .wrapper{position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);width:100%;}
+    .wrapper{position:absolute;top:0;left:0;height:100%;width:100%;}
+    section{min-height:100vh;}
+    .section:nth-of-type(2n){}
+    .centerMe{position:absolute;width:50%;height:100%;transform:translateX(50%);display:flex;justify-content: center;flex-direction: column;}
     h1{font-family: sans-serif;font-weight: 100;text-align: center;}
     .loader{position:relative;width:64px;margin-left:calc(50% - 32px);height:64px;border:2px solid hotpink;border-bottom-color:transparent;border-left-color:transparent;border-radius:50%;animation:spinMe 400ms linear infinite;}
     @keyframes spinMe {
@@ -17,9 +20,16 @@
     </style>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="loader"></div>
-        <h1>Coming Soon...</h1>
+    <div id="wrapper">
+        <section>
+                <div class="centerMe">
+                    <div class="loader"></div>
+                    <h1>Coming Soon...</h1>
+                </div>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
     </div>
 </body>
 </html>
