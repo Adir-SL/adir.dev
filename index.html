@@ -11,7 +11,8 @@
     section{min-height:100vh;}
     section:nth-of-type(2n){background-color:rgba(255,255,255,0.06);}
     .centerMe{position:absolute;width:50%;height:100%;transform:translateX(50%);display:flex;justify-content: center;flex-direction: column;}
-    h1{font-family: sans-serif;font-weight: 100;text-align: center;}
+    h1{font-family: sans-serif;font-weight: 100;padding:32px;}
+    .centerMe h1{text-align: center; padding:0;}
     .loader{position:relative;width:64px;margin-left:calc(50% - 32px);height:64px;border:2px solid hotpink;border-bottom-color:transparent;border-left-color:transparent;border-radius:50%;animation:spinMe 400ms linear infinite;}
     @keyframes spinMe {
         0%{transform:rotate(0deg);}
@@ -27,10 +28,22 @@
                     <h1>Coming Soon...</h1>
                 </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+
+        <section>
+            <h1>Projects</h1>
+        </section>
+
+        <section>
+            <h1>Code Snippets</h1>
+        </section>
+
+        <section>
+            <h1>Articles</h1>
+        </section>
+
+        <section>
+            <h1>About Me</h1>
+        </section>
     </div>
 </body>
 </html>
