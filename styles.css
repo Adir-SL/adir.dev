@@ -25,9 +25,8 @@ section:nth-of-type(2n) {
 
 .centerMe {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    transform: translateX(50%);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -41,6 +40,15 @@ h1 {
 .centerMe h1, .centerMe h2 {
     text-align: center;
     padding: 0;
+    margin: 0;
+}
+.centerMe h1{
+    font-size: 15vw;
+    font-weight: 700;
+}
+.centerMe h2{
+    font-size: 3vw;
+    font-weight: 300;
 }
 
 .loader {
