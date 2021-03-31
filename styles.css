@@ -1,6 +1,7 @@
 body {
     background-color: rgb(24, 9, 59);
     color: hotpink;
+    font-family: sans-serif;
 }
 
 #wrapper {
@@ -30,12 +31,11 @@ section:nth-of-type(2n) {
 }
 
 h1 {
-    font-family: sans-serif;
     font-weight: 100;
     padding: 32px;
 }
 
-.centerMe h1 {
+.centerMe h1, .centerMe h2 {
     text-align: center;
     padding: 0;
 }
