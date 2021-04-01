@@ -49,6 +49,8 @@ h1 {
 .centerMe h2{
     font-size: 4vw;
     font-weight: 300;
+    margin-left: 52vw;
+    width: fit-content;
 }
 
 .loader {
