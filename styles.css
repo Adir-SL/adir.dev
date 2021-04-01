@@ -58,6 +58,12 @@ h1 {
     margin-left: 42vw;
     width: fit-content;
 }
+.centerMe b{
+    color: #D051E4;
+    background: linear-gradient(#D051E4 30%, #ffffff 31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .floorDiv{
     width: 100%;
     height: 33%;
