@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 body {
-    background-color: rgb(24, 9, 59);
+    background-color: #13003C;
     color: #ffffff;
     font-family: sans-serif;
     font-family: 'Inter', sans-serif;
@@ -47,7 +47,7 @@ h1 {
     font-weight: 700;
 }
 .centerMe h2{
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 300;
 }
 
