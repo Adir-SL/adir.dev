@@ -67,7 +67,20 @@ h1 {
     top: 7vw;
     left: 7vw;
 }
-header{}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: right;
+    line-height: 4em;
+    background-color: #13003C;
+    z-index: 1;
+}
+header a{
+    margin: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 .loader {
