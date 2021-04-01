@@ -58,6 +58,7 @@ h1 {
     font-weight: 300;
     margin-left: 42vw;
     width: fit-content;
+    text-align: left;
 }
 .centerMe b{
     color: #D051E4;
