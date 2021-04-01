@@ -15,11 +15,12 @@ body {
     width: 100%;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 section {
     min-height: 100vh;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
 }
 
 /* section:nth-of-type(2n) {
@@ -71,8 +72,8 @@ h1 {
     left: 7vw;
 }
 header{
-    position: fixed;
-    width: 100%;
+    position: sticky;
+    /* width: 100%; */
     top: 0;
     text-align: right;
     line-height: 4em;
