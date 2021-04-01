@@ -28,8 +28,9 @@ section:nth-of-type(2n) {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 h1 {
@@ -52,6 +53,12 @@ h1 {
     margin-left: 42vw;
     width: fit-content;
 }
+.floorDiv{
+    width: 100%;
+    flex-grow: 1;
+    background-color: red;
+}
+
 
 .loader {
     position: relative;
