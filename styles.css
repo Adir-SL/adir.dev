@@ -61,6 +61,12 @@ h1 {
     background: rgb(98,63,171);
     background: linear-gradient(rgba(98,63,171,1) 0%, rgba(98,63,171,0) 100%);
 }
+#biker{
+    position: absolute;
+    height: 56%;
+    top: 9.5%;
+    left: 6%;
+}
 
 
 .loader {
