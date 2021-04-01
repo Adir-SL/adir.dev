@@ -68,6 +68,8 @@ h1 {
 .bgDiv{
     height: 10%;
     background-image: url(images/bg.svg);
+    background-repeat: repeat-x;
+    animation: bgAnim 5000ms linear infinite;
 }
 #biker{
     position: absolute;
@@ -110,4 +112,8 @@ header a{
     100% {
         transform: rotate(360deg);
     }
+}
+
+@keyframes bgAnim {
+    100%{background-position: -100%;}
 }
