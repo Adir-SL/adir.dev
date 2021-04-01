@@ -56,7 +56,8 @@ h1 {
 .floorDiv{
     width: 100%;
     flex-grow: 1;
-    background-color: red;
+    background: rgb(98,63,171);
+    background: linear-gradient(0deg, rgba(98,63,171,0) 20%, rgba(98,63,171,1) 100%);
 }
 
 
