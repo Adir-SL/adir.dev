@@ -1,0 +1,27 @@
+<svg width="581" height="581" viewBox="0 0 581 581" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.moveMe{
+    animation: moveAnim 3000ms linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes moveAnim{
+    50%{transform: translateY(-100%) scale(1);}
+    100%{transform: translateY(-300%) scale(0);}
+}
+</style>
+
+<!-- <rect width="581" height="581" fill="white"/> -->
+    <g filter="url(#goo)">
+        <rect x="-184" y="483" width="949" height="276" fill="#623FAB"/>
+        <circle class="moveMe" cx="290.5" cy="639.5" r="107.5" fill="#623FAB"/>
+    </g>
+
+<defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 39 -20" result="goo" />
+      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+    </filter>
+  </defs>
+</svg>
