@@ -74,7 +74,7 @@ h1 {
     background: linear-gradient(rgba(98,63,171,1) 0%, rgba(98,63,171,0) 100%);
 }
 .bgDiv{
-    height: 10%;
+    height: 4vw;
     background-image: url(images/bg.svg);
     background-repeat: repeat-x;
     animation: bgAnim 5000ms linear infinite;
@@ -124,7 +124,7 @@ header a{
 }
 
 @keyframes bgAnim {
-    100%{background-position: -100%;}
+    100%{background-position: -100vw;}
 }
 @media screen and (max-width: 900px) {
     header{
