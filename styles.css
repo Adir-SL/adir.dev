@@ -75,11 +75,11 @@ h1 {
 }
 .bgDiv{
     height: 4vw;
-    width: 100vw;
+    /* width: 100vw; */
     background-image: url(images/bg.svg);
     background-repeat: repeat-x;
     background-position: 100% 50%;
-    animation: bgAnim 1000ms linear infinite;
+    /* animation: bgAnim 1000ms linear infinite; */
 }
 #biker{
     position: absolute;
@@ -125,10 +125,9 @@ header a{
     }
 }
 
-@keyframes bgAnim {
+/* @keyframes bgAnim {
     100%{background-position: -1% 50%;}
-    /* 100%{transform: translateX(-100vw);} */
-}
+} */
 @media screen and (max-width: 900px) {
     header{
         padding-right: 0;

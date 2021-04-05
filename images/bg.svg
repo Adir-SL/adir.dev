@@ -1,3 +1,9 @@
 <svg width="64" height="96" viewBox="0 0 64 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24 46C24 41.5817 27.5817 38 32 38C36.4183 38 40 41.5817 40 46V96H24V46Z" fill="white" fill-opacity="0.15"/>
+<style>
+#Amud{
+    animation: amudAnim 300ms linear infinite;
+    fill: blue;
+}
+</style>
+<path id="Amud" d="M24 46C24 41.5817 27.5817 38 32 38C36.4183 38 40 41.5817 40 46V96H24V46Z" fill="white" fill-opacity="0.15"/>
 </svg>
