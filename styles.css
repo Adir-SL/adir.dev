@@ -78,7 +78,7 @@ h1 {
     /* width: 100vw; */
     background-image: url(images/bg.svg);
     background-repeat: repeat-x;
-    background-position: 100% 50%;
+    /* background-position: 100% 50%; */
     /* animation: bgAnim 1000ms linear infinite; */
 }
 #biker{
