@@ -126,3 +126,9 @@ header a{
 @keyframes bgAnim {
     100%{background-position: -100vw;}
 }
+@media screen and (max-width: 900px) {
+    header{
+        padding-right: 0;
+        width: 100%;
+    }
+}
