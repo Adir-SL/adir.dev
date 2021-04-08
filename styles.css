@@ -133,6 +133,9 @@ header a{
         padding-right: 0;
         width: 100%;
     }
+    header a{
+        margin: 2%;
+    }
     #biker{
         height: 60vw;
         top: 1vh;
