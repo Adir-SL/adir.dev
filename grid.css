@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 500px) {
     .wrapperGrid img{
-        height: 100px;
+        height: 200px;
         width: auto;
     }
 }
