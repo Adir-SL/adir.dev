@@ -117,6 +117,11 @@ header a{
     border-radius: 50%;
     animation: spinMe 400ms linear infinite;
 }
+.wrapperGrid div{
+    background-image: attr(image);
+    height: 200px;
+    width: 400px;
+}
 
 @keyframes spinMe {
     0% {
