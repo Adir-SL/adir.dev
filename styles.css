@@ -133,7 +133,6 @@ header a{
 }
 .card p{
     margin-top: 0;
-    margin-bottom: 36px;
 }
 .card a{
     text-decoration: none;
@@ -157,6 +156,9 @@ header a{
     margin-left: 4px;
     border-radius: 999px;
     pointer-events: none;
+}
+.card .spacer{
+    flex-grow: 1;
 }
 .labels a::after{
     content: attr(href);
