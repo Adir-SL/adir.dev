@@ -156,6 +156,10 @@ header a{
 }
 .vflex, .hflex{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vflex{
     flex-direction: column;
 }
 
