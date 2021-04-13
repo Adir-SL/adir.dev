@@ -131,6 +131,7 @@ header a{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card p{
+    margin-top: 0;
     margin-bottom: 36px;
 }
 .card a{
@@ -139,17 +140,25 @@ header a{
 .card>a{
     background-color: #D051E4;
     color: #ffffff;
-    padding: 16px;
-    margin-left: 250px;
+    padding: 12px 20px;
+    margin-left: 240px;
     border-radius: 4px;
+    white-space: nowrap;
 }
-.labels a::after{
-    content: attr(href);
+.card>a:hover{
+    background-color: #bf4bd1;
+}
+.labels a{
     font-size: 0.8em;
     background-color: #dedfe4;
     color: #333333;
     padding: 4px 16px;
+    margin-left: 8px;
     border-radius: 999px;
+    pointer-events: none;
+}
+.labels a::after{
+    content: attr(href);
 }
 .wrapperGrid div, .wrapperGrid img{
     border-radius: 4px;
