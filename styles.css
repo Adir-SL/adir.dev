@@ -124,6 +124,7 @@ header a{
     margin: 3.2vh;
     padding: 16px;
     padding-bottom: 36px;
+    border-bottom: 4px solid #D051E4;
 }
 .card img{
     width: 400px;
