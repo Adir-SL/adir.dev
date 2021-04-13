@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.wrapperGrid img{
+.wrapperGrid>img{
     height: 200px;
     width: auto;
     flex-grow: 1;

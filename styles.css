@@ -117,15 +117,22 @@ header a{
     border-radius: 50%;
     animation: spinMe 400ms linear infinite;
 }
-.wrapperGrid div{
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
+.card{
+    /* height: 200px; */
     width: 400px;
     margin: 8px;
+    background-color: pink;
+    padding: 16px;
+}
+.card img{
+    width: 400px;
 }
 .wrapperGrid div, .wrapperGrid img{
     border-radius: 4px;
+}
+.vflex, .hflex{
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes spinMe {
