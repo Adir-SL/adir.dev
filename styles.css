@@ -134,12 +134,22 @@ header a{
     margin-bottom: 36px;
 }
 .card a{
+    text-decoration: none;
+}
+.card>a{
     background-color: #D051E4;
     color: #ffffff;
-    text-decoration: none;
     padding: 16px;
     margin-left: 250px;
     border-radius: 4px;
+}
+.labels a::after{
+    content: attr(href);
+    font-size: 0.8em;
+    background-color: #dedfe4;
+    color: #333333;
+    padding: 4px 16px;
+    border-radius: 999px;
 }
 .wrapperGrid div, .wrapperGrid img{
     border-radius: 4px;
