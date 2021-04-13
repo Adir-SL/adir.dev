@@ -138,6 +138,7 @@ header a{
     color: #ffffff;
     text-decoration: none;
     padding: 16px;
+    margin-left: 250px;
     border-radius: 4px;
 }
 .wrapperGrid div, .wrapperGrid img{
