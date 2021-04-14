@@ -147,6 +147,8 @@ header a{
     /* margin-left: 200px; */
     border-radius: 4px;
     white-space: nowrap;
+    transition: box-shadow 200ms ease-in-out 0s;
+    box-shadow: 0 0 0 0 rgb(208,0,0), 0 0 0 0 rgb(0,0,228), 0 0 0 0 rgb(0,81, 228) inset, 0 0 0 0 rgb(208,81,0) inset;
 }
 .card>a:focus{
     outline: none;
@@ -156,7 +158,8 @@ header a{
     width: 100%;
 }
 .card>a:hover{
-    background-color: #bf4bd1;
+    /* background-color: #bf4bd1; */
+    box-shadow: 6px 6px 0 0 rgb(208,0,0), -6px -6px 0 0 rgb(0,0,228), 6px 6px 0 0 rgb(0,81, 228) inset, -6px -6px 0 0 rgb(208,81,0) inset;
 }
 .labels span{
     font-size: 0.8em;
