@@ -152,7 +152,8 @@ header a{
 }
 .card>a:focus{
     outline: none;
-    box-shadow: 0 0 0 2px rgba(255,255,255,.4) inset;
+    /* box-shadow: 0 0 0 2px rgba(255,255,255,.4) inset; */
+    box-shadow: 2px 2px 0 0 rgb(208,0,0), -2px -2px 0 0 rgba(255, 183, 28, 0.6) inset, -2px -2px 0 0 rgb(0,0,228), 2px 2px 0 0 rgb(23, 149, 233) inset;
 }
 .card .hflex{
     width: 100%;
