@@ -211,9 +211,8 @@ header a{
     header{
         padding-right: 0;
         width: 100%;
-    }
-    header a{
-        margin: 3%;
+        display: flex;
+        justify-content: space-evenly;
     }
     #biker{
         height: 60vw;
