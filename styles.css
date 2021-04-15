@@ -26,12 +26,6 @@ section {
     min-height: 100vh;
     /* scroll-snap-align: start; */
 }
-section:first-of-type{
-    min-height: 55vh;
-}
-/* section:nth-of-type(2n) {
-    background-color: rgba(255, 255, 255, 0.06);
-} */
 
 .centerMe {
     position: absolute;
@@ -225,5 +219,8 @@ header a{
         height: 60vw;
         top: 1vh;
         left: -6vw;
+    }
+    section:first-of-type{
+        min-height: 55vh;
     }
 }
