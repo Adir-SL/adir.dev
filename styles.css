@@ -6,8 +6,8 @@ body {
     background: #13003C;
     /* font-family: sans-serif; */
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
     scrollbar-color: light;
+    color: #ffffff;
     /* background-image: url(images/bg.svg); */
 }
 
