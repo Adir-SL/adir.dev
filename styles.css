@@ -221,6 +221,6 @@ header a{
         left: -6vw;
     }
     section:first-of-type{
-        min-height: 55vh;
+        min-height: 50vh;
     }
 }
