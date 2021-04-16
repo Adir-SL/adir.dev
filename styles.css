@@ -248,15 +248,43 @@ section>p{
     align-items: flex-start;
 }
 .socialDiv a{
-    margin: 0.6em;
+    margin: 1.2em;
+    padding-left: 2em;
     color: #13003B;
     font-weight: 700;
     text-decoration: none;
+    position: relative;
+    transition: filter 200ms linear 0s;
 }
 .socialDiv a:hover{
-    color: #D051E4;
+    /* color: #D051E4; */
+    filter: invert(48%) sepia(36%) saturate(5572%) hue-rotate(261deg) brightness(94%) contrast(90%);
 }
-
+.socialDiv a::before{
+    content: '';
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    margin-left: -2.8em;
+    margin-top: -6px;
+    /* padding: 1em; */
+    background-size: contain;
+}
+.socialDiv a[data=tw]::before{
+    background-image: url(so/twitter.png);
+}
+.socialDiv a[data=fb]::before{
+    background-image: url(so/facebook.png);
+}
+.socialDiv a[data=cp]::before{
+    background-image: url(so/codepen.png);
+}
+.socialDiv a[data=md]::before{
+    background-image: url(so/medium.png);
+}
+.socialDiv a[data=gh]::before{
+    background-image: url(so/github.png);
+}
 @keyframes spinMe {
     0% {
         transform: rotate(0deg);
