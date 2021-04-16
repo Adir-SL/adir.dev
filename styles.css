@@ -239,7 +239,6 @@ section>p{
 }
 .socialDiv{
     background-color: #ffffff;
-    color: #13003B;
     width: 350px;
     max-width: 80%;
     margin: 3.2vh;
@@ -250,6 +249,12 @@ section>p{
 }
 .socialDiv a{
     margin: 0.6em;
+    color: #13003B;
+    font-weight: 700;
+    text-decoration: none;
+}
+.socialDiv a:hover{
+    color: #D051E4;
 }
 
 @keyframes spinMe {
