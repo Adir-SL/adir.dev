@@ -285,6 +285,7 @@ section>p{
 .socialDiv a[data=gh]::before{
     background-image: url(so/github.png);
 }
+
 @keyframes spinMe {
     0% {
         transform: rotate(0deg);
@@ -311,5 +312,14 @@ section>p{
     }
     section:first-of-type{
         min-height: 50vh;
+    }
+    .mySkill{
+        width: 90%;
+    }
+    .mySkill div[data=JavaScript]::after{
+        content: 'JS';
+    }
+    .mobileFix{
+        flex-direction: column;
     }
 }
