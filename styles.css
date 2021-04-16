@@ -197,6 +197,17 @@ header a{
 section>p{
     margin: 3.2vh;
 }
+.mySkill{
+    position: relative;
+}
+.mySkill div{
+    width: fit-content;
+    padding: 32px;
+    border: 1px solid black;
+    background-color: green;
+}
+.mySkill div[data=HTML]{
+}
 
 @keyframes spinMe {
     0% {
