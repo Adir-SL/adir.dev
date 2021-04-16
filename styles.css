@@ -315,6 +315,9 @@ section>p{
     section:first-of-type{
         min-height: 50vh;
     }
+    section:last-of-type{
+        margin-bottom: 15vh;
+    }
     .mySkill{
         width: 90%;
     }
