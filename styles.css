@@ -246,6 +246,10 @@ section>p{
     padding: 16px;
     padding-bottom: 24px;
     border-bottom: 4px solid #D051E4;
+    align-items: flex-start;
+}
+.socialDiv a{
+    margin: 0.6em;
 }
 
 @keyframes spinMe {
