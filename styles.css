@@ -237,6 +237,16 @@ section>p{
 .mySkill div[data=Vue]{
     height: 40%;
 }
+.socialDiv{
+    background-color: #ffffff;
+    color: #13003B;
+    width: 350px;
+    max-width: 80%;
+    margin: 3.2vh;
+    padding: 16px;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #D051E4;
+}
 
 @keyframes spinMe {
     0% {
