@@ -194,6 +194,9 @@ header a{
 .vflex{
     flex-direction: column;
 }
+section>p{
+    margin: 3.2vh;
+}
 
 @keyframes spinMe {
     0% {
