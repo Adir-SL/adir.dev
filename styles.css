@@ -325,9 +325,9 @@ section>p{
     }
     section{
         width: 100vw;
-        min-height: 90vh;
-        /* height: 100vh; */
+        min-height: 0;
         height: fit-content;
+        margin-bottom: 7em;
         overflow-x: scroll;
         overflow-y: hidden;
         scroll-snap-type: x mandatory;
@@ -358,7 +358,7 @@ section>p{
     }
     section:first-of-type{
         min-height: 50vh;
-        height: 80vh;
+        height: 70vh;
     }
     section:last-of-type{
         margin-bottom: 15vh;
