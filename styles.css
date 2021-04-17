@@ -100,11 +100,24 @@ header{
     z-index: 1;
 }
 header a{
+    position: relative;
     margin: 1%;
     color: #ffffff;
     text-decoration: none;
 }
-
+header a:hover::after{
+    width: 100%;
+}
+header a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom: 2px solid #D051E4;
+    transition: width 300ms linear 0s;
+}
 
 .loader {
     position: relative;
