@@ -165,6 +165,12 @@ header a::after{
     transition: box-shadow 200ms ease-in-out 0s;
     box-shadow: 0 0 0 0 rgb(208,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,228), 0 0 0 0 rgb(23, 149, 233) inset;
 }
+section:nth-of-type(3) .card>a{
+    background-color: #8f2e9e;
+}
+section:nth-of-type(4) .card>a{
+    background-color: #623fab;
+}
 .card>a:focus{
     outline: none;
     /* box-shadow: 0 0 0 2px rgba(255,255,255,.4) inset; */
