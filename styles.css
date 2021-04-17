@@ -165,22 +165,42 @@ header a::after{
     transition: box-shadow 200ms ease-in-out 0s;
     box-shadow: 0 0 0 0 rgb(208,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,228), 0 0 0 0 rgb(23, 149, 233) inset;
 }
+section:nth-of-type(3) .card{
+    border-color: #8f2e9e;
+}
+section:nth-of-type(4) .card{
+    border-color: #623fab;
+}
 section:nth-of-type(3) .card>a{
     background-color: #8f2e9e;
+    box-shadow: 0 0 0 0 rgb(143,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,158), 0 0 0 0 rgb(23, 149, 233) inset;
 }
 section:nth-of-type(4) .card>a{
     background-color: #623fab;
+    box-shadow: 0 0 0 0 rgb(98,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,171), 0 0 0 0 rgb(23, 149, 233) inset;
+}
+
+section:nth-of-type(3) .card>a:focus{
+    box-shadow: 2px 2px 0 0 rgb(143,0,0), -2px -2px 0 0 rgba(255, 183, 28, 0.6) inset, -2px -2px 0 0 rgb(0,0,158), 2px 2px 0 0 rgb(23, 149, 233) inset;
+}
+section:nth-of-type(4) .card>a:focus{
+    box-shadow: 2px 2px 0 0 rgb(98,0,0), -2px -2px 0 0 rgba(255, 183, 28, 0.6) inset, -2px -2px 0 0 rgb(0,0,171), 2px 2px 0 0 rgb(23, 149, 233) inset;
+}
+
+section:nth-of-type(3) .card>a:hover{
+    box-shadow: 4px 4px 0 0 rgb(143,0,0), -4px -4px 0 0 rgba(255, 183, 28, 0.6) inset, -4px -4px 0 0 rgb(0,0,158), 4px 4px 0 0 rgb(23, 149, 233) inset;
+}
+section:nth-of-type(4) .card>a:hover{
+    box-shadow: 4px 4px 0 0 rgb(98,0,0), -4px -4px 0 0 rgba(255, 183, 28, 0.6) inset, -4px -4px 0 0 rgb(0,0,171), 4px 4px 0 0 rgb(23, 149, 233) inset;
 }
 .card>a:focus{
     outline: none;
-    /* box-shadow: 0 0 0 2px rgba(255,255,255,.4) inset; */
     box-shadow: 2px 2px 0 0 rgb(208,0,0), -2px -2px 0 0 rgba(255, 183, 28, 0.6) inset, -2px -2px 0 0 rgb(0,0,228), 2px 2px 0 0 rgb(23, 149, 233) inset;
 }
 .card .hflex{
     width: 100%;
 }
 .card>a:hover{
-    /* background-color: #bf4bd1; */
     box-shadow: 4px 4px 0 0 rgb(208,0,0), -4px -4px 0 0 rgba(255, 183, 28, 0.6) inset, -4px -4px 0 0 rgb(0,0,228), 4px 4px 0 0 rgb(23, 149, 233) inset;
 }
 .labels span{
