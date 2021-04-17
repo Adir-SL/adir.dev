@@ -312,12 +312,6 @@ section>p{
         top: 1vh;
         left: -6vw;
     }
-    section:first-of-type{
-        min-height: 50vh;
-    }
-    section:last-of-type{
-        margin-bottom: 15vh;
-    }
     .mySkill{
         width: 90%;
     }
@@ -326,5 +320,29 @@ section>p{
     }
     .mobileFix{
         flex-direction: column;
+    }
+    section{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    section h1{
+        position: absolute;
+        margin-top: -4em;
+    }
+    .wrapperGrid{
+        width: fit-content;
+        flex-wrap: nowrap;
+    }
+    section:first-of-type{
+        min-height: 50vh;
+    }
+    section:last-of-type{
+        margin-bottom: 15vh;
+    }
+    section:first-of-type h1{
+        position: relative;
+        margin: 0;
     }
 }
