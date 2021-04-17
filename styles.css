@@ -283,6 +283,16 @@ section>p{
 .mySkill div[data=Vue]{
     height: 40%;
 }
+.aboutPhoto{
+    margin: 3.2vh;
+    gap: 3vh;
+    align-items: flex-start;
+}
+.aboutPhoto img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
 .socialDiv{
     background-color: #ffffff;
     width: 350px;
@@ -353,9 +363,9 @@ section>p{
         justify-content: space-evenly;
     }
     #biker{
-        height: 60vw;
+        height: 70vw;
         top: 1vh;
-        left: -6vw;
+        left: -10vw;
     }
     .mySkill{
         width: 90%;
@@ -410,5 +420,9 @@ section>p{
     section:first-of-type h1{
         position: relative;
         margin: 0;
+    }
+    .aboutPhoto{
+        flex-direction: column;
+        align-items: center;
     }
 }
