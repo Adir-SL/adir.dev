@@ -337,9 +337,11 @@ section>p{
     }
     section:first-of-type{
         min-height: 50vh;
+        height: 80vh;
     }
     section:last-of-type{
         margin-bottom: 15vh;
+        height: fit-content;
     }
     section:first-of-type h1{
         position: relative;
