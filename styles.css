@@ -344,6 +344,9 @@ section>p{
     .card:first-of-type{
         margin-left: 3.2vh;
     }
+    .card:last-of-type{
+        margin-right: 3.2vh;
+    }
     section:first-of-type{
         min-height: 50vh;
         height: 80vh;
