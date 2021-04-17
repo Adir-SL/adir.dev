@@ -119,7 +119,7 @@ header a{
     background-color: #ffffff;
     color: #13003B;
     width: 350px;
-    max-width: 80%;
+    max-width: 80vw;
     /* width: 25%; */
     margin: 3.2vh;
     padding: 16px;
@@ -338,7 +338,7 @@ section>p{
         flex-wrap: nowrap;
     }
     .card{
-        scroll-snap-align: start;
+        scroll-snap-align: center;
     }
     section:first-of-type{
         min-height: 50vh;
