@@ -114,7 +114,7 @@ header a::after{
     width: 0;
     height: 100%;
     left: 0;
-    bottom: 0;
+    top: 0;
     border-bottom: 2px solid #D051E4;
     transition: width 300ms linear 0s;
 }
@@ -424,5 +424,8 @@ section>p{
     .aboutPhoto{
         flex-direction: column;
         align-items: center;
+    }
+    header a::after{
+        height: 2.6em;
     }
 }
