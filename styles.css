@@ -326,6 +326,8 @@ section>p{
         height: 100vh;
         overflow-x: scroll;
         overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
     }
     section h1{
         position: absolute;
@@ -334,6 +336,9 @@ section>p{
     .wrapperGrid{
         width: fit-content;
         flex-wrap: nowrap;
+    }
+    .card{
+        scroll-snap-align: start;
     }
     section:first-of-type{
         min-height: 50vh;
