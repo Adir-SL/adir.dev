@@ -339,6 +339,10 @@ section>p{
     }
     .card{
         scroll-snap-align: center;
+        margin: 1.2vh;
+    }
+    .card:first-of-type{
+        margin-left: 3.2vh;
     }
     section:first-of-type{
         min-height: 50vh;
