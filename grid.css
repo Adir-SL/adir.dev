@@ -43,9 +43,3 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-@media screen and (max-width: 500px) {
-    .wrapperGrid img{
-        height: 200px;
-        width: auto;
-    }
-}
