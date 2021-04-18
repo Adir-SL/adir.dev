@@ -394,6 +394,8 @@ section>p{
         position: absolute;
         margin-top: -4em;
         padding-top: 7vh;
+        pointer-events: none;
+        touch-action: none;
     }
     .wrapperGrid{
         width: fit-content;
