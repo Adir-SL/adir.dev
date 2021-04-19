@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 @import url("grid.css");
+:root{
+    --bgColor: #13003C;
+    --txtColor: #ffffff;
+    --primary: #D051E4;
+    --secondary: #8f2e9e;
+    --triatery: #623fab;
+}
 
 body {
-    color: transparent;
-    background: #13003C;
-    /* font-family: sans-serif; */
+    background: var(--bgColor);
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
+    color: var(--txtColor);
     opacity: 0;
-    /* background-image: url(images/bg.svg); */
 }
 
 #wrapper {
@@ -24,7 +28,6 @@ body {
 
 section {
     min-height: 100vh;
-    /* scroll-snap-align: start; */
 }
 
 .centerMe {
@@ -32,7 +35,6 @@ section {
     width: 100%;
     height: 100%;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     margin-top: 10vh;
 }
@@ -63,8 +65,8 @@ h1 {
     text-align: left;
 }
 .centerMe b{
-    color: #D051E4;
-    background: linear-gradient(#D051E4 30%, #ffffff 31%);
+    color: var(--primary);
+    background: linear-gradient(var(--primary) 30%, var(--txtColor) 31%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -96,13 +98,13 @@ header{
     top: 0;
     text-align: right;
     line-height: 4em;
-    background-color: #13003C;
+    background-color: var(--bgColor);
     z-index: 1;
 }
 header a{
     position: relative;
     margin: 1%;
-    color: #ffffff;
+    color: var(--txtColor);
     text-decoration: none;
 }
 header a:hover::after{
@@ -115,23 +117,12 @@ header a::after{
     height: 100%;
     left: 0;
     top: 0;
-    border-bottom: 2px solid #D051E4;
+    border-bottom: 2px solid var(--primary);
     transition: width 300ms linear 0s;
 }
 
-.loader {
-    position: relative;
-    width: 64px;
-    margin-left: calc(50% - 32px);
-    height: 64px;
-    border: 2px solid hotpink;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-radius: 50%;
-    animation: spinMe 400ms linear infinite;
-}
 .card{
-    background-color: #ffffff;
+    background-color: var(--txtColor);
     color: #13003B;
     width: 350px;
     max-width: 80vw;
@@ -139,7 +130,7 @@ header a::after{
     margin: 3.2vh;
     padding: 16px;
     padding-bottom: 24px;
-    border-bottom: 4px solid #D051E4;
+    border-bottom: 4px solid var(--primary);
 }
 .card img{
     width: 100%;
@@ -156,8 +147,8 @@ header a::after{
     text-decoration: none;
 }
 .card>a{
-    background-color: #D051E4;
-    color: #ffffff;
+    background-color: var(--primary);
+    color: var(--txtColor);
     padding: 12px 20px;
     /* margin-left: 200px; */
     border-radius: 4px;
@@ -166,21 +157,21 @@ header a::after{
     box-shadow: 0 0 0 0 rgb(208,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,228), 0 0 0 0 rgb(23, 149, 233) inset;
 }
 ::selection{
-    background-color: #623fab;
-    color: #ffffff;
+    background-color: var(--triatery);
+    color: var(--txtColor);
 }
 section:nth-of-type(3) .card{
-    border-color: #8f2e9e;
+    border-color: var(--secondary);
 }
 section:nth-of-type(4) .card{
-    border-color: #623fab;
+    border-color: var(--triatery);
 }
 section:nth-of-type(3) .card>a{
-    background-color: #8f2e9e;
+    background-color: var(--secondary);
     box-shadow: 0 0 0 0 rgb(143,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,158), 0 0 0 0 rgb(23, 149, 233) inset;
 }
 section:nth-of-type(4) .card>a{
-    background-color: #623fab;
+    background-color: var(--triatery);
     box-shadow: 0 0 0 0 rgb(98,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,171), 0 0 0 0 rgb(23, 149, 233) inset;
 }
 
@@ -255,8 +246,8 @@ section>p{
 .mySkill div{
     width: 16%;
     border: 1px solid black;
-    background-color: #623fab;
-    box-shadow: 0 -4px 0 0 #D051E4 inset;
+    background-color: var(--triatery);
+    box-shadow: 0 -4px 0 0 var(--primary) inset;
 }
 .mySkill div::after{
     position: absolute;
@@ -294,13 +285,13 @@ section>p{
     border-radius: 50%;
 }
 .socialDiv{
-    background-color: #ffffff;
+    background-color: var(--txtColor);
     width: 350px;
     max-width: 80%;
     margin: 3.2vh;
     padding: 16px;
     padding-bottom: 24px;
-    border-bottom: 4px solid #D051E4;
+    border-bottom: 4px solid var(--primary);
     align-items: flex-start;
     border-radius: 4px;
 }
@@ -314,7 +305,7 @@ section>p{
     transition: filter 200ms linear 0s;
 }
 .socialDiv a:hover{
-    /* color: #D051E4; */
+    /* color: var(--primary); */
     filter: invert(48%) sepia(36%) saturate(5572%) hue-rotate(261deg) brightness(94%) contrast(90%);
 }
 .socialDiv a::before{
