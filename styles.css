@@ -181,9 +181,6 @@ section:nth-of-type(4) .card>a:hover{
     outline: none;
     box-shadow: 2px 2px 0 0 rgb(208,0,0), -2px -2px 0 0 rgba(255, 183, 28, 0.6) inset, -2px -2px 0 0 rgb(0,0,228), 2px 2px 0 0 rgb(23, 149, 233) inset;
 }
-.card .hflex{
-    width: 100%;
-}
 .card>a:hover{
     box-shadow: 4px 4px 0 0 rgb(208,0,0), -4px -4px 0 0 rgba(255, 183, 28, 0.6) inset, -4px -4px 0 0 rgb(0,0,228), 4px 4px 0 0 rgb(23, 149, 233) inset;
 }
@@ -202,24 +199,7 @@ section:nth-of-type(4) .card>a:hover{
 .labels span::after{
     content: attr(data);
 }
-.wrapperGrid div, .wrapperGrid img{
-    border-radius: 4px;
-}
-.justified{
-    justify-content: space-evenly;
-    align-content: flex-start;
-}
-.justified::after{
-    display: none;
-}
-.vflex, .hflex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.vflex{
-    flex-direction: column;
-}
+
 section>p{
     margin: 3.2vh;
 }
