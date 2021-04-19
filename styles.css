@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url("vars.css");
 @import url("grid.css");
-:root{
-    --bgColor: #13003C;
-    --txtColor: #ffffff;
-    --primary: #D051E4;
-    --secondary: #8f2e9e;
-    --triatery: #623fab;
-}
 
 body {
     background: var(--bgColor);
@@ -120,7 +114,7 @@ header a::after{
 
 .card{
     background-color: var(--txtColor);
-    color: #13003B;
+    color: var(--bgColor);
     width: 350px;
     max-width: 80vw;
     margin: 3.2vh;
@@ -325,15 +319,6 @@ section>p{
 }
 .socialDiv a[data=gh]::before{
     background-image: url(so/github.png);
-}
-
-@keyframes spinMe {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
 @media screen and (max-width: 900px) {
