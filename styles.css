@@ -118,7 +118,7 @@ header a::after{
     min-width: 250px;
     /* max-width: 15vw; */
     /* width: calc(25% - 2vh); */
-    margin: 1vh;
+    margin: 1vw;
     /* flex-basis: 350px; */
     /* flex-grow: 1; */
     padding: 16px;
