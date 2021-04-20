@@ -50,7 +50,6 @@
 .justified{
     justify-content: space-evenly;
     align-content: flex-start;
-    gap: 32px;
     margin: 3.2vh;
 }
 .justified::after{

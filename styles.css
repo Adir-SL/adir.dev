@@ -116,6 +116,7 @@ header a::after{
     color: var(--bgColor);
     /* width: 350px;
     width: calc(25% - 64px); */
+    margin: 2vh;
     flex-basis: 350px;
     flex-grow: 1;
     max-width: 80vw;
