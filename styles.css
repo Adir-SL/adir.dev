@@ -111,7 +111,8 @@ header a::after{
     transition: width 300ms linear 0s;
 }
 .aboutPhoto h2, .aboutPhoto p{
-    margin: 0 0.5em;
+    margin: 0.5em;
+    margin-top: 0;
 }
 .card{
     background-color: var(--txtColor);
