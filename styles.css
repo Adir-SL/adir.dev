@@ -309,11 +309,11 @@ section>p{
     left: 0;
     border: 0;
     background-color: black;
-    pointer-events: all;
-    opacity: 1;
+    pointer-events: none;
+    opacity: 0.8;
 }
-#bigFrame[src=""]{
-    opacity: 0;
+#bigFrame:empty{
+    opacity: 0.3;
     pointer-events: none;
 }
 
