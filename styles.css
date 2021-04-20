@@ -6,7 +6,8 @@ body {
     background: var(--bgColor);
     font-family: 'Inter', sans-serif;
     color: var(--txtColor);
-    opacity: 0;
+    font-display: block;
+    /* opacity: 0; */
 }
 
 #wrapper {
