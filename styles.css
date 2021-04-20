@@ -116,11 +116,11 @@ header a::after{
     color: var(--bgColor);
     width: 20%;
     min-width: 250px;
+    /* max-width: 15vw; */
     /* width: calc(25% - 2vh); */
     margin: 2vh;
     /* flex-basis: 350px; */
     /* flex-grow: 1; */
-    max-width: 80vw;
     padding: 16px;
     padding-bottom: 24px;
     border-bottom: 4px solid var(--primary);
