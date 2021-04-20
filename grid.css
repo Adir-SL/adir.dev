@@ -48,7 +48,7 @@
     border-radius: 4px;
 }
 .justified{
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: flex-start;
     margin: 3.2vh;
 }
