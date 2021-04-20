@@ -49,6 +49,7 @@
 }
 .justified{
     justify-content: space-evenly;
+    /* justify-items: flex-start; */
     align-content: flex-start;
     margin: 3.2vh;
 }
