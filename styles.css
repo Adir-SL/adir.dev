@@ -114,11 +114,12 @@ header a::after{
 .card{
     background-color: var(--txtColor);
     color: var(--bgColor);
-    /* width: 350px;
-    width: calc(25% - 64px); */
+    width: 20%;
+    min-width: 250px;
+    /* width: calc(25% - 2vh); */
     margin: 2vh;
-    flex-basis: 350px;
-    flex-grow: 1;
+    /* flex-basis: 350px; */
+    /* flex-grow: 1; */
     max-width: 80vw;
     padding: 16px;
     padding-bottom: 24px;
