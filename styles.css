@@ -110,7 +110,9 @@ header a::after{
     border-bottom: 2px solid var(--primary);
     transition: width 300ms linear 0s;
 }
-
+.aboutPhoto h2, .aboutPhoto p{
+    margin: 0 0.5em;
+}
 .card{
     background-color: var(--txtColor);
     color: var(--bgColor);
@@ -304,6 +306,9 @@ section>p{
 }
 .socialDiv a[data=gh]::before{
     background-image: url(so/github.png);
+}
+section:last-of-type{
+    margin-bottom: 1em;
 }
 
 @media screen and (max-width: 900px) {
