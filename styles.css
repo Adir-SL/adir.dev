@@ -390,5 +390,6 @@ section:last-of-type{
     }
     .justified{
         margin-top: 0;
+        margin-bottom: 0;
     }
 }
