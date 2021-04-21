@@ -361,6 +361,7 @@ section:last-of-type{
     .card{
         scroll-snap-align: center;
         margin: 1.2vh;
+        margin-top: 0;
     }
     .card:first-of-type{
         margin-left: 3.2vh;
@@ -386,5 +387,8 @@ section:last-of-type{
     }
     header a::after{
         height: 2.6em;
+    }
+    .justified{
+        margin-top: 0;
     }
 }
