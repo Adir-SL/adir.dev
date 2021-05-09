@@ -11,7 +11,6 @@
 }
 </style>
 
-<!-- <rect width="581" height="581" fill="white"/> -->
     <g filter="url(#goo)">
         <rect x="-184" y="483" width="949" height="276" fill="#623FAB"/>
         <circle class="moveMe" cx="290.5" cy="639.5" r="107.5" fill="#623FAB"/>
