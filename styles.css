@@ -310,6 +310,9 @@ section:last-of-type{
 }
 
 @media screen and (max-width: 900px) {
+    body::-webkit-scrollbar {
+        display: none;
+      }
     header{
         padding-right: 0;
         width: 100%;
