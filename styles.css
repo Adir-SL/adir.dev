@@ -278,6 +278,12 @@ section>p{
     position: relative;
     transition: filter 200ms linear 0s;
 }
+.socialDiv a:focus{
+    outline: none;
+    transform: scale(1.1);
+    text-decoration: underline;
+    transform-origin: left center;
+}
 .socialDiv a:hover{
     filter: invert(48%) sepia(36%) saturate(5572%) hue-rotate(261deg) brightness(94%) contrast(90%);
 }
