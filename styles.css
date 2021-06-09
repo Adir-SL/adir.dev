@@ -100,7 +100,10 @@ header a{
     color: var(--txtColor);
     text-decoration: none;
 }
-header a:hover::after{
+header a:focus{
+    outline: none;
+}
+header a:focus::after, header a:hover::after{
     width: 100%;
 }
 header a::after{
