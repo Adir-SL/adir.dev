@@ -2,6 +2,8 @@
 @import url("vars.css");
 @import url("grid.css");
 
+/* Made by Adir SL */
+
 body {
     background: var(--bgColor);
     font-family: 'Inter', sans-serif;
