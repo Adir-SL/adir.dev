@@ -1,24 +1,4 @@
 <svg width="64" height="96" viewBox="0 0 64 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-@media screen and (prefers-reduced-motion: no-preference) {
-    #Amud{
-        animation: amudAnim 200ms linear infinite;
-        transform: translateX(24px);
-    }
-    #otherAmud{
-        animation: amudOtherAnim 200ms linear infinite;
-        transform: translateX(24px);
-    }
-    @keyframes amudAnim{
-        0%{transform: translateX(24px);}
-        100%{transform: translateX(-40px);}
-    }
-    @keyframes amudOtherAnim{
-        0%{transform: translateX(88px);}
-        100%{transform: translateX(24px);}
-    }
-}
-</style>
 <path id="Amud" d="M24 46C24 41.5817 27.5817 38 32 38C36.4183 38 40 41.5817 40 46V96H24V46Z" fill="white" fill-opacity="0.15"/>
 <path id="otherAmud" d="M24 46C24 41.5817 27.5817 38 32 38C36.4183 38 40 41.5817 40 46V96H24V46Z" fill="white" fill-opacity="0.15"/>
 </svg>
