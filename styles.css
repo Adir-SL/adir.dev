@@ -115,7 +115,6 @@ header a::after{
     left: 0;
     top: 0;
     border-bottom: 2px solid var(--primary);
-    transition: width 300ms linear 0s;
 }
 .aboutPhoto h2, .aboutPhoto p{
     margin: 0.5em;
@@ -280,7 +279,6 @@ section>p{
     font-weight: 700;
     text-decoration: none;
     position: relative;
-    transition: filter 200ms linear 0s;
 }
 .socialDiv a:focus{
     outline: none;
@@ -409,5 +407,8 @@ section:last-of-type{
     }
     #wrapper {
         scroll-behavior: smooth;
+    }
+    header a::after{
+        transition: width 300ms linear 0s;
     }
 }
