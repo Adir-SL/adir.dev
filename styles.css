@@ -411,4 +411,7 @@ section:last-of-type{
     header a::after{
         transition: width 300ms linear 0s;
     }
+    .socialDiv a{
+        transition: filter 200ms linear 0s;
+    }
 }
