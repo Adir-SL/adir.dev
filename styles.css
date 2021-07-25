@@ -150,7 +150,6 @@ header a::after{
     padding: 12px 20px;
     border-radius: 4px;
     white-space: nowrap;
-    transition: box-shadow 200ms ease-in-out 0s;
     box-shadow: 0 0 0 0 rgb(208,0,0), 0 0 0 0 rgba(255, 183, 28, 0.6) inset, 0 0 0 0 rgb(0,0,228), 0 0 0 0 rgb(23, 149, 233) inset;
 }
 ::selection{
@@ -413,5 +412,8 @@ section:last-of-type{
     }
     .socialDiv a{
         transition: filter 200ms linear 0s;
+    }
+    .card>a{
+        transition: box-shadow 200ms ease-in-out 0s;
     }
 }
