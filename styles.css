@@ -369,7 +369,6 @@ section:last-of-type{
         scroll-snap-align: center;
         margin: 1.2vh;
         margin-top: 0;
-        width: auto;
     }
     .card:first-of-type{
         margin-left: 3.2vh;
