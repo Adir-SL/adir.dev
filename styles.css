@@ -159,11 +159,11 @@ header a::after{
     background-color: var(--triatery);
     color: var(--txtColor);
 }
-section:nth-of-type(3) .card::after{
-    background-color: var(--secondary);
+section:nth-of-type(3) .card{
+    background: linear-gradient(0deg, var(--secondary) 0, var(--secondary) 4px, rgba(255,255,255,0) 5px, rgba(255,255,255,0) 100%);
 }
-section:nth-of-type(4) .card::after{
-    background-color: var(--triatery);
+section:nth-of-type(4) .card{
+    background: linear-gradient(0deg, var(--triatery) 0, var(--triatery) 4px, rgba(255,255,255,0) 5px, rgba(255,255,255,0) 100%);
 }
 section:nth-of-type(3) .card>a{
     background-color: var(--secondary);
