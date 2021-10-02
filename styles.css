@@ -273,6 +273,8 @@ section>p{
     padding: 16px;
     padding-bottom: 24px;
     /* border-bottom: 4px solid var(--primary); */
+    background: linear-gradient(0deg, var(--primary) 0, var(--primary) 4px, rgba(255,255,255,0) 5px, rgba(255,255,255,0) 100%);
+    background-color: var(--txtColor);
     align-items: flex-start;
     border-radius: 8px;
 }
