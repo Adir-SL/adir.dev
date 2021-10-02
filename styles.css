@@ -168,11 +168,13 @@ header a::after{
     background-color: var(--triatery);
     color: var(--txtColor);
 }
-section:nth-of-type(3) .card{
-    border-color: var(--secondary);
+section:nth-of-type(3) .card::after{
+    background-color: var(--secondary);
+    /* border-color: var(--secondary); */
 }
-section:nth-of-type(4) .card{
-    border-color: var(--triatery);
+section:nth-of-type(4) .card::after{
+    background-color: var(--triatery);
+    /* border-color: var(--triatery); */
 }
 section:nth-of-type(3) .card>a{
     background-color: var(--secondary);
