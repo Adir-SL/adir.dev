@@ -130,7 +130,6 @@ header a::after{
     padding: 16px;
     padding-bottom: 24px;
     overflow: hidden;
-    /* border-bottom: 4px solid var(--primary); */
 }
 .card::after{
     content: '';
@@ -170,11 +169,9 @@ header a::after{
 }
 section:nth-of-type(3) .card::after{
     background-color: var(--secondary);
-    /* border-color: var(--secondary); */
 }
 section:nth-of-type(4) .card::after{
     background-color: var(--triatery);
-    /* border-color: var(--triatery); */
 }
 section:nth-of-type(3) .card>a{
     background-color: var(--secondary);
