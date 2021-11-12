@@ -1,0 +1,81 @@
+<svg width="180" height="181" viewBox="0 0 180 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.clickCircle{
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: clicked 4000ms ease-out infinite;
+}
+.btnGroup{
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: btns 2000ms ease-in-out infinite;
+}
+.hand{
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: handAnim 4000ms ease-in-out infinite;
+}
+@keyframes clicked{
+    0%{transform: scale(1); opacity: 0;}
+    20%{transform: scale(1); opacity: 0;}
+    35%{transform: scale(24); opacity: 1;}
+    50%{transform: scale(24); opacity: 1;}
+
+    51%{transform: translate(-200%, -15%) scale(1); opacity: 0;}
+    70%{transform: translate(-200%, -15%) scale(1); opacity: 0;}
+    85%{transform: translate(-200%, -15%) scale(24); opacity: 1;}
+
+    100%{transform: translate(-200%, -15%) scale(24); opacity: 1;}
+}
+@keyframes btns{
+    0%{transform: translateX(100%);}
+    25%{transform: translateX(0);}
+    45%{transform: translateX(0) scale(1);}
+    50%{transform: translateX(0) scale(0.9);}
+    55%{transform: translateX(0) scale(1);}
+    75%{transform: translateX(0);}
+    100%{transform: translateX(-100%);}
+}
+@keyframes handAnim{
+    0%{transform: scale(1) rotate(0);}
+    17%{transform: scale(1) rotate(0);}
+    20%{transform: scale(0.7) rotate(-10deg);}
+    21%{transform: scale(0.7) rotate(-10deg);}
+    23%{transform: scale(1) rotate(6deg);}
+    26%{transform: scale(1) rotate(0);}
+    40%{transform: scale(1) rotate(0);}
+
+    67%{transform: scale(1) translate(-80%,-15%) rotate(0);}
+    70%{transform: scale(0.8) translate(-80%,-15%) rotate(20deg);}
+    71%{transform: scale(0.8) translate(-80%,-15%) rotate(20deg);}
+    73%{transform: scale(1) translate(-80%,-15%) rotate(-10deg);}
+    76%{transform: scale(1) translate(-80%,-15%) rotate(0);}
+    90%{transform: scale(1) rotate(-10deg);}
+    100%{transform: scale(1) rotate(0);}
+}
+</style>
+<rect width="180" height="181" fill="#0A2144"/>
+<g clip-path="url(#clip0_4501_40826)">
+<line y1="46.6091" x2="180" y2="46.6091" stroke="#7DAAFF" stroke-opacity="0.5"/>
+<line y1="91.531" x2="180" y2="91.531" stroke="#7DAAFF" stroke-opacity="0.5"/>
+<line y1="136.453" x2="180" y2="136.453" stroke="#7DAAFF" stroke-opacity="0.5"/>
+<line x1="45.2539" y1="2.18726" x2="45.2539" y2="180.905" stroke="#7DAAFF" stroke-opacity="0.5"/>
+<line x1="90.1738" y1="2.18726" x2="90.1738" y2="180.905" stroke="#7DAAFF" stroke-opacity="0.5"/>
+<line x1="134.927" y1="0.905029" x2="134.927" y2="180.905" stroke="#7DAAFF" stroke-opacity="0.5"/>
+<g class="btnGroup">
+<rect x="8" y="57.905" width="164" height="65" rx="32.5" fill="#2671FF"/>
+<mask id="mask0_4501_40826" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="57" width="164" height="66">
+<rect class="btn" x="8" y="57.905" width="164" height="65" rx="32.5" fill="#2671FF"/>
+</mask>
+<g mask="url(#mask0_4501_40826)">
+<circle class="clickCircle" cx="114" cy="104" r="5" fill="#1959D2"/>
+</g>
+</g>
+<path class="hand" d="M157.83 124.424C157.383 122.962 156.39 121.729 155.055 120.977C153.816 120.27 152.362 120.027 150.956 120.291C149.55 120.556 148.283 121.311 147.384 122.421C146.864 120.98 145.838 119.776 144.495 119.031C143.121 118.25 141.505 117.996 139.953 118.318C138.401 118.64 137.019 119.515 136.067 120.779C135.554 119.317 134.521 118.095 133.162 117.342C131.79 116.563 130.179 116.309 128.63 116.628C127.08 116.946 125.699 117.816 124.745 119.074L120.168 101.993C119.95 101.182 119.574 100.422 119.06 99.7565C118.546 99.0911 117.905 98.5336 117.174 98.1159C115.699 97.2731 113.947 97.0473 112.302 97.4882C110.656 97.929 109.252 99.0004 108.396 100.468C107.971 101.195 107.694 101.998 107.582 102.832C107.469 103.665 107.524 104.512 107.742 105.323L117.181 140.549L110.795 136.631C109.361 135.728 107.662 135.331 105.972 135.504C102.506 135.914 100.136 139.077 100.531 142.496C100.626 143.333 100.887 144.142 101.3 144.877C101.712 145.611 102.268 146.256 102.934 146.773C106.482 149.542 110.133 152.447 113.64 155.581C117.113 158.692 120.426 162.03 123.31 165.685C126.865 170.193 132.347 171.325 137.752 169.877L152.603 165.898C161.582 163.492 165.978 154.711 163.615 145.934L157.83 124.424Z" fill="#FF8F24"/>
+</g>
+<defs>
+<clipPath id="clip0_4501_40826">
+<rect width="180" height="180" fill="white" transform="translate(0 0.905029)"/>
+</clipPath>
+</defs>
+</svg>

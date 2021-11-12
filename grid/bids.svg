@@ -1,0 +1,105 @@
+<svg width="180" height="181" viewBox="0 0 180 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.backMove{
+    animation: backAnim 6000ms linear infinite;
+}
+.ball{
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: ballAnim 1500ms linear infinite;
+    animation-delay: 100ms;
+}
+.gavel{
+    transform-box: fill-box;
+    transform-origin: bottom right;
+    animation: gavelAnim 1500ms ease-in infinite;
+}
+.gavel.s{
+    animation-delay: 10ms;
+    opacity: 0.8;
+}
+.gavel.t{
+    animation-delay: 20ms;
+    opacity: 0.6;
+}
+.gavel.f{
+    animation-delay: 30ms;
+    opacity: 0.3;
+}
+@keyframes backAnim{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-100%);}
+}
+@keyframes ballAnim{
+    0%{transform: translate(-200%,0) rotate(0);}
+    10%{transform: translate(-100%,110%) scale(0.8,1.2) rotate(55deg);}
+    20%{transform: translate(0,220%) scale(1.2,0.8) rotate(0);}
+    25%{transform: translate(50%,150%) scale(0.8,1.2) rotate(-55deg);}
+    30%{transform: translate(100%,100%) scale(1,1) rotate(0);}
+    35%{transform: translate(165%,160%) scale(0.8,1.2) rotate(65deg);}
+    40%{transform: translate(235%,220%) scale(1.2,0.8) rotate(0);}
+    45%{transform: translate(235%,220%) scale(1,1) rotate(0);}
+    49%{transform: translate(235%,225%) scale(1.5,0);}
+    55%{transform: translate(235%,225%) scale(1.5,0);}
+    60%{transform: translate(235%,220%) scale(0.8,0);}
+    100%{transform: translate(235%,220%) scale(0.8,0);}
+}
+@keyframes gavelAnim{
+    0%{transform: translateY(-15%) rotate(0);}
+    38%{transform: translateY(-15%) rotate(0);}
+    42%{transform: translateY(-15%) rotate(4deg);}
+    50%{transform: translateY(-15%) rotate(-45deg);}
+    58%{transform: translateY(-15%) rotate(6deg);}
+    62%{transform: translateY(-15%) rotate(0);}
+    100%{transform: translateY(-15%) rotate(0);}
+}
+</style>
+<rect width="180" height="181" fill="#E9F0FF"/>
+<g id="ads" clip-path="url(#clip0_4501_40866)">
+<g class="backMove">
+<rect id="Rectangle 2200" y="168.048" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2188" y="13.7622" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2208" x="180" y="168.048" width="90" height="12.8571" transform="rotate(-180 180 168.048)" fill="#2671FF"/>
+<rect id="Rectangle 2190" y="39.4766" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2209" x="180" y="142.333" width="90" height="12.8571" transform="rotate(-180 180 142.333)" fill="#2671FF"/>
+<rect id="Rectangle 2192" y="65.1907" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2210" x="180" y="116.619" width="90" height="12.8571" transform="rotate(-180 180 116.619)" fill="#2671FF"/>
+<rect id="Rectangle 2194" y="90.905" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2211" x="180" y="90.905" width="90" height="12.8571" transform="rotate(-180 180 90.905)" fill="#2671FF"/>
+<rect id="Rectangle 2196" y="116.619" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2212" x="180" y="65.1907" width="90" height="12.8571" transform="rotate(-180 180 65.1907)" fill="#2671FF"/>
+<rect id="Rectangle 2198" y="142.333" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2213" x="180" y="39.4766" width="90" height="12.8571" transform="rotate(-180 180 39.4766)" fill="#2671FF"/>
+<rect id="Rectangle 2214" x="180" y="13.7622" width="90" height="12.8571" transform="rotate(-180 180 13.7622)" fill="#2671FF"/>
+
+<g style="transform: translateY(100%);">
+<rect id="Rectangle 2200" y="168.048" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2188" y="13.7622" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2208" x="180" y="168.048" width="90" height="12.8571" transform="rotate(-180 180 168.048)" fill="#2671FF"/>
+<rect id="Rectangle 2190" y="39.4766" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2209" x="180" y="142.333" width="90" height="12.8571" transform="rotate(-180 180 142.333)" fill="#2671FF"/>
+<rect id="Rectangle 2192" y="65.1907" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2210" x="180" y="116.619" width="90" height="12.8571" transform="rotate(-180 180 116.619)" fill="#2671FF"/>
+<rect id="Rectangle 2194" y="90.905" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2211" x="180" y="90.905" width="90" height="12.8571" transform="rotate(-180 180 90.905)" fill="#2671FF"/>
+<rect id="Rectangle 2196" y="116.619" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2212" x="180" y="65.1907" width="90" height="12.8571" transform="rotate(-180 180 65.1907)" fill="#2671FF"/>
+<rect id="Rectangle 2198" y="142.333" width="90" height="12.8571" fill="#2671FF"/>
+<rect id="Rectangle 2213" x="180" y="39.4766" width="90" height="12.8571" transform="rotate(-180 180 39.4766)" fill="#2671FF"/>
+<rect id="Rectangle 2214" x="180" y="13.7622" width="90" height="12.8571" transform="rotate(-180 180 13.7622)" fill="#2671FF"/>
+</g>
+</g>
+
+
+<circle class="ball" id="Ellipse 1710" cx="45" cy="73.6194" r="17" fill="#FF8F24"/>
+<path id="Vector" class="gavel" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
+<path id="Vector" class="gavel s" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
+<path id="Vector" class="gavel t" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
+<path id="Vector" class="gavel f" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
+</g>
+<defs>
+<clipPath id="clip0_4501_40866">
+<rect width="180" height="180" fill="white" transform="translate(0 0.905029)"/>
+</clipPath>
+</defs>
+</svg>
