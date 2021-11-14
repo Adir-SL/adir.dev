@@ -31,7 +31,7 @@
     100%{transform: translateY(-100%);}
 }
 @keyframes ballAnim{
-    0%{transform: translate(-200%,0) scale(1) rotate(0);}
+    0%{transform: translate(-200%,0) rotate(0);}
     10%{transform: translate(-100%,110%) scale(0.8,1.2) rotate(55deg);}
     20%{transform: translate(0,220%) scale(1.2,0.8) rotate(0);}
     25%{transform: translate(50%,150%) scale(0.8,1.2) rotate(-55deg);}
@@ -39,10 +39,10 @@
     35%{transform: translate(165%,160%) scale(0.8,1.2) rotate(65deg);}
     40%{transform: translate(235%,220%) scale(1.2,0.8) rotate(0);}
     45%{transform: translate(235%,220%) scale(1,1) rotate(0);}
-    49%{transform: translate(235%,225%) scale(1.5,0) rotate(0);}
-    55%{transform: translate(235%,225%) scale(1.5,0) rotate(0);}
-    60%{transform: translate(235%,220%) scale(0.8,0) rotate(0);}
-    100%{transform: translate(235%,220%) scale(0.8,0) rotate(0);}
+    49%{transform: translate(235%,225%) scale(1.5,0);}
+    55%{transform: translate(235%,225%) scale(1.5,0);}
+    60%{transform: translate(235%,220%) scale(0.8,0);}
+    100%{transform: translate(235%,220%) scale(0.8,0);}
 }
 @keyframes gavelAnim{
     0%{transform: translateY(-15%) rotate(0);}
@@ -90,9 +90,8 @@
 </g>
 </g>
 
-<g class="ball">
-<circle id="Ellipse 1710" cx="45" cy="73.6194" r="17" fill="#FF8F24"/>
-</g>
+
+<circle class="ball" id="Ellipse 1710" cx="45" cy="73.6194" r="17" fill="#FF8F24"/>
 <path id="Vector" class="gavel" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
 <path id="Vector" class="gavel s" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
 <path id="Vector" class="gavel t" fill-rule="evenodd" clip-rule="evenodd" d="M127.677 90.9792L152.164 66.4116L149.243 63.4865L153.943 58.7622L175.709 80.5847L170.994 85.3039L168.277 82.5793L158.258 92.6243L195.748 130.256L191.494 134.518L154.014 96.8911L143.795 107.137L146.506 109.866L141.802 114.58L120 92.7168L124.699 87.9976L127.677 90.9792Z" fill="#0A2144"/>
