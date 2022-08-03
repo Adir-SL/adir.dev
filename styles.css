@@ -331,6 +331,9 @@ section:last-of-type{
 }
 
 @media screen and (max-width: 900px) {
+    #stickyHeader, #aboveRect{
+        display: none;
+    }
     body::-webkit-scrollbar {
         display: none;
       }
