@@ -98,6 +98,7 @@ header{
 #stickyHeader a{
     color: var(--txtColor);
     text-decoration: none;
+    transition: color 300ms linear 0s;
 }
 #stickyHeader a:hover{
     color: var(--primary);
