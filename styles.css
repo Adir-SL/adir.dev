@@ -95,6 +95,13 @@ header{
     background-color: var(--bgColor);
     z-index: 1;
 }
+#stickyHeader a{
+    color: var(--txtColor);
+    text-decoration: none;
+}
+#stickyHeader a:hover{
+    color: var(--primary);
+}
 header a{
     position: relative;
     margin: 1%;
