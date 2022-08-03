@@ -86,7 +86,7 @@ h1 {
     left: 7vw;
 }
 header{
-    position: fixed;
+    position: sticky;
     width: 90%;
     padding-right: 10%;
     top: 0;
