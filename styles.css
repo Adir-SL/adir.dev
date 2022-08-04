@@ -330,7 +330,13 @@ section:last-of-type{
     margin-bottom: 4vh;
 }
 #stickyHeader{
-    position:sticky;top:0;width:fit-content;line-height:4rem;margin-left:3.2vh;font-size:1.5em;z-index: 9;
+    position:sticky;
+    top:0;
+    width:fit-content;
+    line-height:4rem;
+    margin-left:3.2vh;
+    font-size:1.5em;
+    z-index: 9;
 }
 #aboveRect{
     position: absolute;
