@@ -116,7 +116,7 @@ header{
     text-decoration: none;
     transition: color 300ms linear 0s;
 }
-#stickyHeader a:hover{
+#stickyHeader a:hover, #stickyHeader a:focus{
     color: var(--primary);
 }
 header a{
