@@ -329,6 +329,13 @@ section>p{
 section:last-of-type{
     margin-bottom: 4vh;
 }
+#aboveRect{
+    position: absolute;
+    width: 12rem;
+    height: 4rem;
+    background:var(--bgColor);
+    z-index: 10;
+}
 
 @media screen and (max-width: 900px) {
     #stickyHeader, #aboveRect{
