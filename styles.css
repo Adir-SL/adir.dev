@@ -118,6 +118,7 @@ header{
 }
 #stickyHeader a:hover, #stickyHeader a:focus{
     color: var(--primary);
+    outline: none;
 }
 header a{
     position: relative;
