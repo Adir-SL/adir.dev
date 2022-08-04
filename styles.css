@@ -95,6 +95,13 @@ header{
     background-color: var(--bgColor);
     z-index: 1;
 }
+#aboveRect{
+    position: absolute;
+    width: 12rem;
+    height: 4rem;
+    background: var(--bgColor);
+    z-index: 10;
+}
 #stickyHeader{
     position: sticky;
     top: 0;
@@ -103,13 +110,6 @@ header{
     margin-left: 3.2vh;
     font-size: 1.5em;
     z-index: 9;
-}
-#aboveRect{
-    position: absolute;
-    width: 12rem;
-    height: 4rem;
-    background: var(--bgColor);
-    z-index: 10;
 }
 #stickyHeader a{
     color: var(--txtColor);
