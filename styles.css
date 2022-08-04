@@ -95,6 +95,22 @@ header{
     background-color: var(--bgColor);
     z-index: 1;
 }
+#stickyHeader{
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    line-height: 4rem;
+    margin-left: 3.2vh;
+    font-size: 1.5em;
+    z-index: 9;
+}
+#aboveRect{
+    position: absolute;
+    width: 12rem;
+    height: 4rem;
+    background: var(--bgColor);
+    z-index: 10;
+}
 #stickyHeader a{
     color: var(--txtColor);
     text-decoration: none;
@@ -328,22 +344,6 @@ section>p{
 }
 section:last-of-type{
     margin-bottom: 4vh;
-}
-#stickyHeader{
-    position: sticky;
-    top: 0;
-    width: fit-content;
-    line-height: 4rem;
-    margin-left: 3.2vh;
-    font-size: 1.5em;
-    z-index: 9;
-}
-#aboveRect{
-    position: absolute;
-    width: 12rem;
-    height: 4rem;
-    background: var(--bgColor);
-    z-index: 10;
 }
 
 @media screen and (max-width: 900px) {
