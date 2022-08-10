@@ -388,7 +388,7 @@ section:last-of-type{
         position: absolute;
         margin-top: -150px;
     }
-    section h2{
+    section h2:not(.centerMe h2){
         position: absolute;
         margin-top: -4em;
         padding-top: 7vh;
