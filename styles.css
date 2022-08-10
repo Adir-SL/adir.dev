@@ -148,6 +148,9 @@ header a::after{
 .aboutPhoto h3{
     min-width: 200px;
 }
+.aboutPhoto p{
+    margin-right: 3.2vh;
+}
 .card{
     position: relative;
     background: linear-gradient(0deg, var(--primary) 0, var(--primary) 4px, rgba(255,255,255,0) 5px, rgba(255,255,255,0) 100%);
