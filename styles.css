@@ -352,7 +352,9 @@ section>p{
 section:last-of-type{
     margin-bottom: 4vh;
 }
-.hflex.mobileFix{}
+.hflex.mobileFix{
+    margin: 0 3.2vh;
+}
 
 @media screen and (max-width: 900px) {
     #stickyHeader, #aboveRect{
