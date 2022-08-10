@@ -42,7 +42,7 @@ h1 {
     font-size: 2em;
 }
 
-.centerMe h1, .centerMe h2 {
+.centerMe h1, .centerMe h3 {
     text-align: center;
     padding: 0;
     margin: 0;
@@ -51,7 +51,7 @@ h1 {
     font-size: 15vw;
     font-weight: 700;
 }
-.centerMe h2{
+.centerMe h3{
     font-size: 5vw;
     font-weight: 300;
     margin-left: 42vw;
@@ -141,7 +141,7 @@ header a::after{
     top: 0;
     border-bottom: 2px solid var(--primary);
 }
-.aboutPhoto h2, .aboutPhoto p{
+.aboutPhoto h3, .aboutPhoto p{
     margin: 0.5em;
     margin-top: 0;
 }
