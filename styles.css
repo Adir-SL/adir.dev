@@ -447,12 +447,12 @@ section:last-of-type{
     .hflex.mobileFix{
         margin: 0;
 }
-/* @media screen and (prefers-reduced-motion){
+@media (prefers-reduced-motion: reduce){
     #wrapper {
-        scroll-behavior: auto;
+        scroll-behavior: auto !important;
     }
-} */
-@media (prefers-reduced-motion: no-preference) {
+}
+/* @media (prefers-reduced-motion: no-preference) {
     .bgDiv{
         background-image: url(images/bg.svg);
     }
@@ -468,4 +468,4 @@ section:last-of-type{
     .card>a{
         transition: box-shadow 200ms ease-in-out 0s;
     }
-}
+} */
