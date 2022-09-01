@@ -357,6 +357,24 @@ section:last-of-type{
     margin: 0 3.2vh;
 }
 
+/* MOTION ADDED */
+.bgDiv{
+    background-image: url(images/bg.svg);
+}
+#wrapper {
+    scroll-behavior: smooth;
+}
+header a::after{
+    transition: width 300ms linear 0s;
+}
+.socialDiv a{
+    transition: filter 200ms linear 0s;
+}
+.card>a{
+    transition: box-shadow 200ms ease-in-out 0s;
+}
+/* MOTION ADDED */
+
 @media screen and (max-width: 900px) {
     #stickyHeader, #aboveRect{
         display: none;
@@ -447,12 +465,8 @@ section:last-of-type{
     .hflex.mobileFix{
         margin: 0;
 }
-@media (prefers-reduced-motion: reduce){
-    #wrapper {
-        scroll-behavior: auto !important;
-    }
-}
-/* @media (prefers-reduced-motion: no-preference) {
+
+@media (prefers-reduced-motion: reduce) {
     .bgDiv{
         background-image: url(images/bg.svg);
     }
@@ -468,4 +482,22 @@ section:last-of-type{
     .card>a{
         transition: box-shadow 200ms ease-in-out 0s;
     }
-} */
+} 
+
+/* @media screen and (prefers-reduced-motion: no-preference) {
+    .bgDiv{
+        background-image: url(images/bg.svg);
+    }
+    #wrapper {
+        scroll-behavior: smooth;
+    }
+    header a::after{
+        transition: width 300ms linear 0s;
+    }
+    .socialDiv a{
+        transition: filter 200ms linear 0s;
+    }
+    .card>a{
+        transition: box-shadow 200ms ease-in-out 0s;
+    }
+}  */
