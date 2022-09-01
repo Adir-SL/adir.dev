@@ -468,10 +468,10 @@ header a::after{
 
 @media (prefers-reduced-motion: reduce) {
     .bgDiv{
-        background-image: url(images/bg.svg);
+        background-image: url(images/bg_noMotion.svg);
     }
     #wrapper {
-        scroll-behavior: smooth;
+        scroll-behavior: auto;
     }
     header a::after{
         transition: width 300ms linear 0s;
