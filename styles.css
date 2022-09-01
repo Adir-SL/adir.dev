@@ -76,7 +76,7 @@ section {
 }
 .bgDiv{
     height: 4vw;
-    background-image: url(images/bg_noMotion.svg);
+    background-image: url(images/bg.svg);
     background-repeat: repeat-x;
     background-position: 50% 50%;
 }
