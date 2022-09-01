@@ -468,7 +468,7 @@ header a::after{
 
 @media (prefers-reduced-motion: reduce) {
     .bgDiv{
-        background-image: url(images/bg_noMotion.svg);
+        background-image: url(images/bg_noMotion.svg) !important;
     }
     #wrapper {
         scroll-behavior: auto;
