@@ -76,7 +76,7 @@ section {
 }
 .bgDiv{
     height: 4vw;
-    background-image: url(images/bg.svg);
+    background-image: url(images/bg_noMotion.svg);
     background-repeat: repeat-x;
     background-position: 50% 50%;
 }
@@ -358,9 +358,9 @@ section:last-of-type{
 }
 
 /* MOTION ADDED */
-.bgDiv{
-    background-image: url(images/bg.svg);
-}
+/* .bgDiv{
+    background-image: url(images/bg_.svg);
+} */
 #wrapper {
     scroll-behavior: smooth;
 }
