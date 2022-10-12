@@ -18,7 +18,7 @@ body {
     width: 100%;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     scroll-behavior: auto;
 }
 
