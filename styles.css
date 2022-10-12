@@ -360,7 +360,7 @@ section:last-of-type{
 /* MOTION ADDED */
 /* .bgDiv{
     background-image: url(images/bg_.svg);
-} */
+}
 #wrapper {
     scroll-behavior: smooth;
 }
@@ -372,7 +372,7 @@ header a::after{
 }
 .card>a{
     transition: box-shadow 200ms ease-in-out 0s;
-}
+} */
 /* MOTION ADDED */
 
 @media screen and (max-width: 900px) {
