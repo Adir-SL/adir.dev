@@ -24,6 +24,7 @@
         animation: headAnim 300ms linear infinite;
         animation-delay: -150ms;
     }
+    @media screen and (prefers-reduced-motion: no-preference) {
     @keyframes layerAnim{
         50%{transform: translateX(2%);}
         100%{transform: translateX(0);}
@@ -39,6 +40,7 @@
         50%{transform: rotate(6deg);}
         100%{transform: rotate(0deg);}
     }
+}
 </style>
 <g id="Layer_2">
 <g id="CHARACTER_ON_SCOOTER">
