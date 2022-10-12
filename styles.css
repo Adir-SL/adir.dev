@@ -466,7 +466,7 @@ header a::after{
         margin: 0;
 }
 
-/* @media screen and (prefers-reduced-motion: no-preference) {
+@media screen and (prefers-reduced-motion: no-preference) {
     .bgDiv{
         background-image: url(images/bg.svg);
     }
@@ -482,4 +482,4 @@ header a::after{
     .card>a{
         transition: box-shadow 200ms ease-in-out 0s;
     }
-}  */
+} 
