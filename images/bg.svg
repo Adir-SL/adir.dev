@@ -8,6 +8,7 @@
     animation: amudOtherAnim 200ms linear infinite;
     transform: translateX(24px);
 }
+@media screen and (prefers-reduced-motion: no-preference) {
 @keyframes amudAnim{
     0%{transform: translateX(24px);}
     100%{transform: translateX(-40px);}
@@ -15,6 +16,7 @@
 @keyframes amudOtherAnim{
     0%{transform: translateX(88px);}
     100%{transform: translateX(24px);}
+}
 }
 </style>
 <path id="Amud" d="M24 46C24 41.5817 27.5817 38 32 38C36.4183 38 40 41.5817 40 46V96H24V46Z" fill="white" fill-opacity="0.15"/>
