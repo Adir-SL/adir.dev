@@ -19,6 +19,7 @@ body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 section {
@@ -411,6 +412,7 @@ header a::after{
         overflow-y: hidden;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
+        scroll-behavior: auto;
     }
     section~a{
         position: absolute;
