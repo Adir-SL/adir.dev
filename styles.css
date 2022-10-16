@@ -485,3 +485,9 @@ header a::after{
         transition: box-shadow 200ms ease-in-out 0s;
     }
 } 
+@media (prefers-reduced-motion: reduce) {
+    .bgDiv{
+        background-image: url(images/bg_noMotion.svg);
+        background: red !important;
+    }
+}
