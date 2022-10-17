@@ -77,10 +77,10 @@ section {
 }
 .bgDiv{
     height: 4vw;
-    opacity: 0;
     background-image: url(images/bg.svg);
     background-repeat: repeat-x;
     background-position: 50% 50%;
+    background: none;
 }
 .bgDiv::after{
     content: '';
