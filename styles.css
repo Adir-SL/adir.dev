@@ -502,10 +502,10 @@ header a::after{
 }
 @media (prefers-reduced-motion){
     .bgDiv::before{
-        display: none;
+        opacity: 0;
     }
     .bgDiv::after{
-        display: block;
+        opacity: 1;
     }
 
 }
