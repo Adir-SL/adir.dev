@@ -63,6 +63,7 @@ section {
 .centerMe b{
     color: var(--primary);
     background: linear-gradient(var(--primary) 30%, var(--txtColor) 31%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -500,12 +501,11 @@ header a::after{
         transition: box-shadow 200ms ease-in-out 0s;
     }
 }
-@media (prefers-reduced-motion){
+@media (prefers-reduced-motion) {
     .bgDiv::before{
         opacity: 0 !important;
     }
     .bgDiv::after{
         opacity: 1 !important;
     }
-
 }
