@@ -502,7 +502,7 @@ header a::after{
     }
 }
 
-@media (prefers-reduced-motion) {
+@media screen and (prefers-reduced-motion) {
     .bgDiv::before{
         opacity: 0 !important;
     }
