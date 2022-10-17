@@ -488,10 +488,10 @@ header a::after{
 
 @media screen and (prefers-reduced-motion: no-preference) {
     .bgDiv::before{
-        opacity: 1;
+        opacity: 0;
     }
     .bgDiv::after{
-        opacity: 0;
+        opacity: 1;
     }
     #wrapper {
         scroll-behavior: smooth;
