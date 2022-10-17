@@ -81,6 +81,12 @@ section {
     background-repeat: repeat-x;
     background-position: 50% 50%;
 }
+.bgDiv::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 #biker{
     position: absolute;
     height: 30vw;
