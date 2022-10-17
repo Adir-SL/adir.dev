@@ -77,10 +77,17 @@ section {
 }
 .bgDiv{
     height: 4vw;
+    background: none;
+}
+.bgDiv::before{
+    content: '';
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 4vw;
     background-image: url(images/bg.svg);
     background-repeat: repeat-x;
     background-position: 50% 50%;
-    background: none;
 }
 .bgDiv::after{
     content: '';
@@ -481,7 +488,9 @@ header a::after{
 
 @media screen and (prefers-reduced-motion: no-preference) {
     .bgDiv{
-        opacity: 1;
+        background-image: url(images/bg.svg);
+        background-repeat: repeat-x;
+        background-position: 50% 50%;
     }
     .bgDiv::after{
         opacity: 0;
