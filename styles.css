@@ -481,7 +481,9 @@ header a::after{
     .bgDiv{
         opacity: 1;
     }
-    .bgDiv::after{}
+    .bgDiv::after{
+        opacity: 0;
+    }
     #wrapper {
         scroll-behavior: smooth;
     }
