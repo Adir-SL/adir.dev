@@ -379,24 +379,6 @@ section:last-of-type{
     margin: 0 3.2vh;
 }
 
-/* MOTION ADDED */
-/* .bgDiv{
-    background-image: url(images/bg_.svg);
-}
-#wrapper {
-    scroll-behavior: smooth;
-}
-header a::after{
-    transition: width 300ms linear 0s;
-}
-.socialDiv a{
-    transition: filter 200ms linear 0s;
-}
-.card>a{
-    transition: box-shadow 200ms ease-in-out 0s;
-} */
-/* MOTION ADDED */
-
 @media screen and (max-width: 900px) {
     #stickyHeader, #aboveRect{
         display: none;
