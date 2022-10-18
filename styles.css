@@ -506,12 +506,3 @@ header a::after{
         transition: box-shadow 200ms ease-in-out 0s;
     }
 }
-
-/* @media (prefers-reduced-motion) {
-    .bgDiv::before{
-        opacity: 0 !important;
-    }
-    .bgDiv::after{
-        opacity: 1 !important;
-    }
-} */
