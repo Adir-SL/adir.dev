@@ -82,26 +82,6 @@ section {
     background-repeat: repeat-x;
     background-position: 50% 50%;
 }
-/* .bgDiv::before{
-    content: '';
-    opacity: 1;
-    position: absolute;
-    width: 100%;
-    height: 4vw;
-    background-image: url(images/bg.svg);
-    background-repeat: repeat-x;
-    background-position: 50% 50%;
-}
-.bgDiv::after{
-    content: '';
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 4vw;
-    background-image: url(images/bg_noMotion.svg);
-    background-repeat: repeat-x;
-    background-position: 50% 50%;
-} */
 #biker{
     position: absolute;
     height: 30vw;
