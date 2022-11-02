@@ -17,7 +17,7 @@ body {
     66% {background: var(--triatery);}
     88% {background: var(--bgColor);}
     100% {background: var(--bgColor);}
-  }
+}
 
 #wrapper {
     background: var(--bgColor);
