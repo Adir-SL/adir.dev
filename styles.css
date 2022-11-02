@@ -5,7 +5,7 @@
 /* Made by Adir SL */
 
 body {
-    background: var(--bgColor);
+    /* background: var(--bgColor); */
     font-family: 'Inter', sans-serif;
     color: var(--txtColor);
 }
