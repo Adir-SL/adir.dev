@@ -20,7 +20,7 @@ body {
   }
 
 #wrapper {
-    background: var(--bgColor);
+    /* background: var(--bgColor); */
     position: absolute;
     top: 0;
     left: 0;
