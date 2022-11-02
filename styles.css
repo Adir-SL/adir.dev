@@ -10,6 +10,20 @@ body {
     font-family: 'Inter', sans-serif;
     color: var(--txtColor);
 }
+@keyframes colorMe {
+    0% {background: white;}
+    20% {background: blue;}
+    40% {background: purple;}
+    60% {
+      background: yellow;
+    }
+    80% {
+      background: green;
+    }
+    100% {
+      background: white;
+    }
+  }
 
 #wrapper {
     background: var(--bgColor);
