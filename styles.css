@@ -6,16 +6,15 @@
 
 body {
     /* background: var(--bgColor); */
-    animation: colorMe 3000ms linear infinite;
+    animation: colorMe 3000ms ease-in-out infinite;
     font-family: 'Inter', sans-serif;
     color: var(--txtColor);
 }
 @keyframes colorMe {
     0% {background: var(--bgColor);}
-    20% {background: blue;}
-    40% {background: purple;}
-    60% {background: yellow;}
-    80% {background: green;}
+    25% {background: var(--triatery);}
+    50% {background: var(--secondary);}
+    75% {background: var(--triatery);}
     100% {background: var(--bgColor);}
   }
 
