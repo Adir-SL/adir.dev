@@ -12,9 +12,10 @@ body {
 }
 @keyframes colorMe {
     0% {background: var(--bgColor);}
-    25% {background: var(--triatery);}
-    50% {background: var(--secondary);}
-    75% {background: var(--triatery);}
+    20% {background: var(--triatery);}
+    40% {background: var(--secondary);}
+    60% {background: var(--triatery);}
+    80% {background: var(--bgColor);}
     100% {background: var(--bgColor);}
   }
 
