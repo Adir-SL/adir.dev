@@ -6,6 +6,7 @@
 
 body {
     /* background: var(--bgColor); */
+    animation: colorMe 3000ms linear infinite;
     font-family: 'Inter', sans-serif;
     color: var(--txtColor);
 }
