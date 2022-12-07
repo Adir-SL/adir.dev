@@ -490,6 +490,6 @@ section:last-of-type{
         color: var(--txtColor);
     }
     .card img{
-        border-color: 1px solid #bebebe;
+        border: 1px solid #666666 !important;
     }
 }
