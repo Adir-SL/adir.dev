@@ -484,4 +484,8 @@ section:last-of-type{
         --bgColor: #000000;
         --txtColor: #cccccc;
     }
+    .card{
+        background-color: var(--bgColor) !important;
+        border-left: 1px solid var(--txtColor);
+    }
 }
