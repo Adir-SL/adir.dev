@@ -492,4 +492,7 @@ section:last-of-type{
     .card img{
         border: 1px solid #666666 !important;
     }
+    #biker{
+        filter: brightness(50%);
+    }
 }
