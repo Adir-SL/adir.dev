@@ -502,4 +502,7 @@ section:last-of-type{
     .socialDiv a{
         color: var(--txtColor);
     }
+    .socialDiv a::before{
+        filter: brightness(500%) grayscale(100%);
+    }
 }
