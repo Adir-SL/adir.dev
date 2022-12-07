@@ -478,3 +478,9 @@ section:last-of-type{
         transition: box-shadow 200ms ease-in-out 0s;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --bgColor: #000000;
+    }
+}
