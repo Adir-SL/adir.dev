@@ -489,5 +489,7 @@ section:last-of-type{
         box-shadow: 0 0 0 1px #666666;
         color: var(--txtColor);
     }
-    .card img{}
+    .card img{
+        border-color: 1px solid #bebebe;
+    }
 }
