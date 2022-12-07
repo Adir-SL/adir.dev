@@ -493,6 +493,13 @@ section:last-of-type{
         border: 1px solid #666666 !important;
     }
     #biker{
-        filter: brightness(50%);
+        filter: brightness(70%);
+    }
+    .socialDiv{
+        background-color: #333333 !important;
+        box-shadow: 0 0 0 1px #666666;
+    }
+    .socialDiv a{
+        color: var(--txtColor);
     }
 }
