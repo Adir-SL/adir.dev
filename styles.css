@@ -482,5 +482,6 @@ section:last-of-type{
 @media (prefers-color-scheme: dark) {
     :root{
         --bgColor: #000000;
+        --txtColor: #cccccc;
     }
 }
