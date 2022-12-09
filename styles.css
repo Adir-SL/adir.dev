@@ -505,4 +505,9 @@ section:last-of-type{
     .socialDiv a::before{
         filter: invert(100%) grayscale(100%);
     }
+    .labels span{
+        background-color: transparent;
+        color: var(--txtColor);
+        border: 1px solid var(--txtColor);
+    }
 }
