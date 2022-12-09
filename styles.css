@@ -520,5 +520,6 @@ section:last-of-type{
     }
     .card>a{
         color: #ffffff !important;
+        background-color: var(--bgColor);
     }
 }
