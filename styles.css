@@ -493,7 +493,7 @@ section:last-of-type{
         color: var(--txtColor);
     }
     .card img{
-        border: 1px solid #666666 !important;
+        border: 1px solid var(--txtColor) !important;
     }
     #biker{
         filter: brightness(70%);
