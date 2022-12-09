@@ -514,4 +514,7 @@ section:last-of-type{
         color: var(--txtColor);
         border: 1px solid var(--txtColor);
     }
+    .aboutPhoto img{
+        
+    }
 }
