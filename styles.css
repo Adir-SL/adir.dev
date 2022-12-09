@@ -500,7 +500,8 @@ section:last-of-type{
     }
     .socialDiv{
         background-color: #333333 !important;
-        box-shadow: 0 0 0 1px #666666;
+        /* box-shadow: 0 0 0 1px #666666; */
+        box-shadow: 1px 1px 0 0 var(--txtColor) inset, -1px 1px 0 0 var(--txtColor) inset;
     }
     .socialDiv a{
         color: var(--txtColor);
