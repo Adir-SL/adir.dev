@@ -487,9 +487,6 @@ section:last-of-type{
     .card{
         background-color: var(--bgColor) !important;
         box-shadow: 1px 1px 0 0 var(--txtColor) inset, -1px 1px 0 0 var(--txtColor) inset;
-        /* border-left: 1px solid var(--txtColor);
-        border-right: 1px solid var(--txtColor);
-        border-top: 1px solid var(--txtColor); */
         color: var(--txtColor);
     }
     .card img{
