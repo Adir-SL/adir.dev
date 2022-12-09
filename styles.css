@@ -485,7 +485,7 @@ section:last-of-type{
         --txtColor: #cccccc;
     }
     .card{
-        background-color: #333333 !important;
+        background-color: #000000 !important;
         box-shadow: 0 0 0 1px #666666;
         color: var(--txtColor);
     }
