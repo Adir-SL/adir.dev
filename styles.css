@@ -515,6 +515,6 @@ section:last-of-type{
         border: 1px solid var(--txtColor);
     }
     .aboutPhoto img{
-        
+        filter: brightness(70%);
     }
 }
