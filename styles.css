@@ -511,7 +511,6 @@ section:last-of-type{
     .labels span{
         background-color: transparent;
         color: var(--txtColor);
-        /* border: 1px solid var(--txtColor); */
         box-shadow: 0 0 0 1px var(--txtColor) inset;
     }
     .aboutPhoto img{
