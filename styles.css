@@ -517,4 +517,7 @@ section:last-of-type{
     .aboutPhoto img{
         filter: brightness(70%);
     }
+    .card>a{
+        color: #ffffff !important;
+    }
 }
