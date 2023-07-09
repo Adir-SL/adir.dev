@@ -350,6 +350,9 @@ section>p{
 .socialDiv a[data=tw]::before{
     background-image: url(so/twitter.png);
 }
+.socialDiv a[data=th]::before{
+    background-image: url(so/threads.png);
+}
 .socialDiv a[data=fb]::before{
     background-image: url(so/facebook.png);
 }
