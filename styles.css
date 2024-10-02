@@ -294,10 +294,10 @@ section>p{
     height: 80%;
 }
 .mySkill div[data=React]{
-    height: 50%;
+    height: 60%;
 }
 .mySkill div[data=Vue]{
-    height: 40%;
+    height: 30%;
 }
 .aboutPhoto{
     margin: 3.2vh;
