@@ -5,6 +5,18 @@
   flex-direction: column;
 }
 
+#wrapper:has(.blog) header {
+  text-align: left;
+  max-width: 900px;
+  width: calc(100% - 64px);
+  padding: 0;
+  font-size: 1.5em;
+}
+
+#wrapper:has(.blog) header a {
+  margin: 0;
+}
+
 .blog {
   width: calc(100% - 64px);
   margin: 32px 0;
@@ -17,6 +29,15 @@
   margin-top: 16px;
   border: 1px solid;
   position: relative;
+  transition: opacity 300ms linear 0s;
+}
+
+.rss-item:hover {
+  opacity: 1 !important;
+}
+
+.rss-feed:hover .rss-item {
+  opacity: .5;
 }
 
 .blog h2 {
@@ -26,6 +47,11 @@
 .blog a {
   color: var(--primary);
   text-decoration: none;
+  transition: filter 300ms linear 0s;
+}
+
+.blog a:hover {
+  filter: brightness(200%);
 }
 
 .blog h3 {
