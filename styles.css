@@ -5,8 +5,8 @@
 /* Made by Adir SL */
 
 body {
-    /* background: var(--bgColor); */
-    animation: bgAnim 3000ms ease-in-out infinite;
+    background: var(--bgColor);
+    /* animation: bgAnim 3000ms ease-in-out infinite; */
     font-family: 'Inter', sans-serif;
     color: var(--txtColor);
 }
