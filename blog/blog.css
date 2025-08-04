@@ -17,6 +17,11 @@
   margin: 0;
 }
 
+#wrapper:has(.blog) section {
+  margin: 0;
+  margin-top: 32px;
+}
+
 .blog {
   width: calc(100% - 64px);
   margin: 32px 0;
