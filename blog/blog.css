@@ -1,0 +1,36 @@
+#wrapper:has(.blog) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog {
+  width: calc(100% - 64px);
+  margin: 32px 0;
+  max-width: 900px;
+}
+
+.rss-item {
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  border: 1px solid;
+}
+
+.blog h2 {
+  padding-left: 0;
+}
+
+.blog a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.blog h3 {
+  width: fit-content !important;
+}
+
+.dateDiv {
+  font-size: 0.75rem;
+  opacity: .4;
+}
