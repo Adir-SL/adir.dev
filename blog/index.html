@@ -12,7 +12,7 @@
 <body>
     <div id="wrapper">
         <section class="blog">
-            <h2>Latest News</h2>
+            <h2>Adir SL Blog</h2>
             <div class="rss-feed" id="rssFeed"></div>
         </section>
     </div>
@@ -30,8 +30,8 @@
                     feedItem.className = "rss-item";
                     feedItem.innerHTML = `
                         <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                        <p class="dateDiv">${item.pubDate}</p>
                         <p>${item.description}</p>
+                        <p class="dateDiv">${item.pubDate.slice(8, 10)} / ${item.pubDate.slice(5, 7)} / ${item.pubDate.slice(0, 4)}</p>
                     `;
                     container.appendChild(feedItem);
                 });

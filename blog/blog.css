@@ -15,6 +15,7 @@
   border-radius: 8px;
   margin-top: 16px;
   border: 1px solid;
+  position: relative;
 }
 
 .blog h2 {
@@ -28,9 +29,16 @@
 
 .blog h3 {
   width: fit-content !important;
+  margin-top: 0;
+}
+
+.blog p {
+  margin: 0;
 }
 
 .dateDiv {
+  position: absolute;
+  top: 12px;
+  right: 12px;
   font-size: 0.75rem;
-  opacity: .4;
 }
