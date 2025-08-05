@@ -30,29 +30,37 @@
     </div>
 
     <script>
-        const rssFeedUrl = "https://rss.beehiiv.com/feeds/VwXd7nvFrY.xml";
+        const rssFeedUrl = "https://corsproxy.io/?" + encodeURIComponent("https://rss.beehiiv.com/feeds/VwXd7nvFrY.xml");
 
         fetch(rssFeedUrl)
             .then(response => response.text())
-            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            .then(str => new window.DOMParser().parseFromString(str, "application/xml"))
             .then(data => {
                 const container = document.getElementById("rssFeed");
-                const items = data.querySelectorAll("item, entry"); // Handles RSS <item> and Atom <entry>
 
-                items.forEach(item => {
-                    const title = item.querySelector("title")?.textContent || "No title";
-                    const link = item.querySelector("link")?.textContent || item.querySelector("link")?.getAttribute("href");
-                    const description = item.querySelector("description")?.textContent || item.querySelector("summary")?.textContent || "";
-                    const pubDate = item.querySelector("pubDate")?.textContent || item.querySelector("published")?.textContent || "";
+                // Beehiiv uses <item> (RSS 2.0 format)
+                const items = data.getElementsByTagName("item");
+
+                if (items.length === 0) {
+                    container.innerHTML = "<p>No items found in the feed.</p>";
+                    return;
+                }
+
+                Array.from(items).forEach(item => {
+                    const title = item.getElementsByTagName("title")[0]?.textContent || "No title";
+                    const link = item.getElementsByTagName("link")[0]?.textContent || "#";
+                    const description =
+                        item.getElementsByTagName("description")[0]?.textContent || "";
+                    const pubDate =
+                        item.getElementsByTagName("pubDate")[0]?.textContent ||
+                        item.getElementsByTagName("atom:published")[0]?.textContent || "";
 
                     const feedItem = document.createElement("div");
                     feedItem.className = "rss-item";
                     feedItem.innerHTML = `
                     <h3><a href="${link}" target="_blank">${title}</a></h3>
                     <p>${description}</p>
-                    <p class="dateDiv">${pubDate
-                            ? new Date(pubDate).toLocaleDateString("en-GB")
-                            : "No date"
+                    <p class="dateDiv">${pubDate ? new Date(pubDate).toLocaleDateString("en-GB") : "No date"
                         }</p>
                 `;
                     container.appendChild(feedItem);
