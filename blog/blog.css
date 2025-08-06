@@ -62,17 +62,16 @@
 
 .blog h3 {
   width: fit-content !important;
+  margin-top: 0;
   margin-bottom: 12px;
 }
 
 .blog p {
   margin: 0;
+  line-height: 1.5;
 }
 
 .dateDiv {
-  position: absolute;
-  top: 12px;
-  right: 12px;
   font-size: 0.75rem;
 }
 
