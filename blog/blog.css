@@ -30,6 +30,7 @@
 
 .rss-item {
   padding: 16px;
+  padding-bottom: 24px;
   border-radius: 8px;
   margin-top: 16px;
   border: 1px solid;
@@ -61,7 +62,7 @@
 
 .blog h3 {
   width: fit-content !important;
-  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .blog p {
