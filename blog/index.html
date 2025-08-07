@@ -69,27 +69,6 @@
             .catch(error => console.error("Error fetching RSS feed:", error));
     </script>
 
-    <!-- <script>
-        const rssFeedUrl = "https://rss.beehiiv.com/feeds/VwXd7nvFrY.xml"; // Replace with your RSS feed URL
-        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssFeedUrl)}`;
-
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById("rssFeed");
-                data.items.forEach(item => {
-                    const feedItem = document.createElement("div");
-                    feedItem.className = "rss-item";
-                    feedItem.innerHTML = `
-                        <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                        <p>${item.description}</p>
-                        <p class="dateDiv">${item.pubDate.slice(8, 10)} / ${item.pubDate.slice(5, 7)} / ${item.pubDate.slice(0, 4)}</p>
-                    `;
-                    container.appendChild(feedItem);
-                });
-            })
-            .catch(error => console.error("Error fetching RSS feed:", error));
-    </script> -->
 </body>
 
 </html>
