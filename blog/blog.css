@@ -26,6 +26,8 @@
   margin: 32px 0;
   margin-top: 200px !important;
   max-width: 900px;
+  max-height: calc(100% - 232px);
+  overflow: auto;
 }
 
 .rss-item {
