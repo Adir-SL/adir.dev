@@ -65,6 +65,10 @@
   max-width: 900px;
 }
 
+.blog header a {
+  color: inherit;
+}
+
 .blog a {
   color: var(--primary);
   text-decoration: none;
