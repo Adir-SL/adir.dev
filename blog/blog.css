@@ -53,6 +53,7 @@
 .rss-feed {
   width: calc(100% - 64px);
   max-width: 900px;
+  margin-bottom: 40px;
 }
 
 .rss-feed:hover .rss-item {
