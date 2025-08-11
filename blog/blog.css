@@ -61,6 +61,7 @@
 
 .blog h2 {
   padding-left: 0;
+  width: calc(100% - 64px);
   max-width: 900px;
 }
 
