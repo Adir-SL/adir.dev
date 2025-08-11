@@ -51,6 +51,7 @@
 }
 
 .rss-feed {
+  width: calc(100% - 64px);
   max-width: 900px;
 }
 
